@@ -3,6 +3,7 @@ import { navLinks } from "../utils/data";
 import logo from "../assets/images/logo.png";
 import menu from "../assets/images/menu.svg";
 import PopupMenu from "./PopupMenu";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [popUp, setPopUp] = useState(false);
@@ -22,9 +23,9 @@ const Navbar = () => {
               const { link, id } = navLink;
               return (
                 <li key={id}>
-                  <a href="#" className=" text-slate-900 capitalize text-2xl">
+                  <Link to="#" className=" text-slate-900 capitalize text-2xl">
                     {link}
-                  </a>
+                  </Link>
                 </li>
               );
             })}

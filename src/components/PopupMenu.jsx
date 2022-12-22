@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const PopupMenu = ({ navLinks, popUp }) => {
   return (
@@ -12,7 +13,7 @@ const PopupMenu = ({ navLinks, popUp }) => {
           const { link, id } = navLink;
           return (
             <li key={id} className="flex items-center">
-              <a href="#">{link}</a>
+              <Link to="#">{link}</Link>
             </li>
           );
         })}
