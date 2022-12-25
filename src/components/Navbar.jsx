@@ -13,26 +13,29 @@ const Navbar = () => {
   };
   return (
     <>
-      <header className=" absolute top-5 left-0 right-0">
-        <nav className=" flex items-center justify-between travigo-container">
-          <div className=" flex items-center">
+      <header className="absolute top-5 left-0 right-0">
+        <nav className="flex items-center justify-between travigo-container">
+          <div className="flex items-center">
             <img src={logo} alt="logo" className=" w-20 h-14 object-fill" />
           </div>
-          <ul className=" flex items-center justify-between gap-7 lg:hidden">
+          <ul className="flex items-center justify-between gap-7 lg:hidden">
             {navLinks.map((navLink) => {
               const { link, id } = navLink;
               return (
                 <li key={id}>
-                  <Link to="#" className=" text-slate-900 capitalize text-2xl">
+                  <Link to="#" className="text-slate-900 capitalize text-2xl">
                     {link}
                   </Link>
                 </li>
               );
             })}
           </ul>
-          <ul className=" flex items-center lg:hidden">
+          <ul className="flex items-center lg:hidden">
             <li>
-              <button type="button" className="emerald-btn text-base">
+              <button
+                type="button"
+                className="emerald-btn text-base transition-transform duration-200 active:scale-105"
+              >
                 Join Us
               </button>
             </li>

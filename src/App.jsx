@@ -1,5 +1,5 @@
 import React from "react";
-import { Hero, Memory, Navbar } from "./components";
+import { Advertise, Explore, Hero, Memory, Navbar } from "./components";
 
 function App() {
   return (
@@ -7,6 +7,8 @@ function App() {
       <Navbar />
       <Hero />
       <Memory />
+      <Explore />
+      <Advertise />
     </>
   );
 }

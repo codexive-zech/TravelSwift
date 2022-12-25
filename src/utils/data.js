@@ -16,7 +16,6 @@ import place6 from "../assets/images/img6.webp";
 import place7 from "../assets/images/img7.webp";
 import place8 from "../assets/images/img8.webp";
 import place9 from "../assets/images/img9.webp";
-// import place10 from "../assets/images/img10.webp";
 
 import standardIcon from "../assets/images/standardicon.png";
 import premiumIcon from "../assets/images/preminum.png";
@@ -68,8 +67,8 @@ export const memory = {
 };
 
 export const placesAPI = [
-  { placeImg: place1, location: "Lahore", distance: "3.0 hour dirve" },
-  { placeImg: place2, location: "Faisalabad", distance: "2.5 hour dirve" },
+  { placeImg: place1, location: "Lahore", distance: "3.0 hour drive" },
+  { placeImg: place2, location: "Faisalabad", distance: "2.5 hour drive" },
   { placeImg: place3, location: "Multan", distance: "4.7 hour drive" },
   { placeImg: place4, location: "Rawalpindi", distance: "4 hour drive" },
   { placeImg: place5, location: "Islamabad", distance: "4.9 hour drive" },
@@ -77,7 +76,7 @@ export const placesAPI = [
   { placeImg: place7, location: "Nathia Gali", distance: "5.5 hour drive" },
   { placeImg: place8, location: "Ayubia Gali", distance: "5.1 hour drive" },
   { placeImg: place9, location: "Bhurban", distance: "5.1 hour drive" },
-  // { placeImg: place10, location: "Gilgit", distance: "5.1 hour drive" },
+  { placeImg: place1, location: "Gilgit", distance: "5.1 hour drive" },
 ];
 
 export const pricingApi = {

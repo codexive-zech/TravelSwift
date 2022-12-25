@@ -23,4 +23,8 @@
   .img-emerald-shadow {
     filter: drop-shadow(0.1rem 0.1rem 1rem rgba(74 222 128 / 80%));
   }
+
+  .scroll-hidden::-webkit-scrollbar {
+    display: none !important;
+  }
 }
