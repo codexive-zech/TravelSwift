@@ -3,6 +3,7 @@ import {
   Advertise,
   Banner,
   Explore,
+  Footer,
   Hero,
   Memory,
   Navbar,
@@ -19,6 +20,7 @@ function App() {
       <Advertise />
       <Pricing />
       <Banner />
+      <Footer />
     </>
   );
 }

@@ -30,7 +30,7 @@ const Card = ({ planIcon, title, text, planType, planContent, buttonText }) => {
           </div>
         </div>
         {/* body */}
-        <hr className="h-[0.5vh] bg-slate-500 my-3" />
+        <hr className="h-[0.3vh] md:h-[0.1vh] bg-slate-500 my-3" />
         <div className="grid items-center justify-items-start gap-5 md:gap-3">
           {planContent.map((content, index) => {
             const { iconBox, text } = content;

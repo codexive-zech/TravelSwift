@@ -13,7 +13,7 @@ const Banner = () => {
             className=" w-full h-[50vh] md:h-[40vh] sm:h-[35vh] xs:h-[30vh] object-fill rounded-lg"
           />
         </div>
-        <div className=" absolute top-20 left-7 right-0 flex flex-col items-start justify-center md:items-center md:justify-center md:left-0 gap-3 md:gap-2">
+        <div className=" absolute top-20 xs:top-10 left-7 right-0 flex flex-col items-start justify-center md:items-center md:justify-center md:left-0 gap-3 md:gap-2">
           <h1 className=" text-4xl lg:text-3xl md:text-2xl sm:text-xl font-bold text-slate-900 filter drop-shadow-md">
             {title}
           </h1>
