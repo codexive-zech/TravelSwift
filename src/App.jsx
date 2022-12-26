@@ -1,5 +1,12 @@
 import React from "react";
-import { Advertise, Explore, Hero, Memory, Navbar } from "./components";
+import {
+  Advertise,
+  Explore,
+  Hero,
+  Memory,
+  Navbar,
+  Pricing,
+} from "./components";
 
 function App() {
   return (
@@ -9,6 +16,7 @@ function App() {
       <Memory />
       <Explore />
       <Advertise />
+      <Pricing />
     </>
   );
 }
