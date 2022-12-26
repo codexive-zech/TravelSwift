@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Advertise,
+  Banner,
   Explore,
   Hero,
   Memory,
@@ -17,6 +18,7 @@ function App() {
       <Explore />
       <Advertise />
       <Pricing />
+      <Banner />
     </>
   );
 }

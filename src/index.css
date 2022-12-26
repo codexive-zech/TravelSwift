@@ -13,11 +13,11 @@
   }
 
   .emerald-btn {
-    @apply bg-emerald-500 text-xl sm:text-sm rounded-full px-7 drop-shadow-lg sm:px-3 py-1.5 sm:w-[45vw] shadow-lg shadow-emerald-400 text-slate-100;
+    @apply bg-emerald-500 text-xl sm:text-sm rounded-full px-7 drop-shadow-lg sm:px-3 py-1.5 sm:w-[45vw] shadow-lg shadow-emerald-400 text-slate-100 active:scale-105 duration-300 transition-all;
   }
 
   .light-btn {
-    @apply bg-white text-xl sm:text-sm rounded-full px-7 drop-shadow-lg sm:px-3 py-1.5 sm:w-[45vw] shadow-slate-200 shadow-lg text-slate-900;
+    @apply bg-white text-xl sm:text-sm rounded-full px-7 drop-shadow-lg sm:px-3 py-1.5 sm:w-[45vw] shadow-slate-200 shadow-lg text-slate-900 active:scale-105 duration-300 transition-all;
   }
 
   .img-emerald-shadow {

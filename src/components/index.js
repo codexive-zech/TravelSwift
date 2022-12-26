@@ -5,5 +5,6 @@ import Memory from "./Memory";
 import Explore from "./Explore";
 import Advertise from "./Advertise";
 import Pricing from "./Pricing";
+import Banner from "./Banner";
 
-export { Hero, Navbar, PopupMenu, Memory, Explore, Advertise, Pricing };
+export { Hero, Navbar, PopupMenu, Memory, Explore, Advertise, Pricing, Banner };
