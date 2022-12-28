@@ -24,3 +24,5 @@ const Experience = ({ experiences }) => {
 };
 
 export default Experience;
+
+export const ExperienceOpt = React.memo(Experience);

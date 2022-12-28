@@ -60,3 +60,5 @@ const Card = ({ planIcon, title, text, planType, planContent, buttonText }) => {
 };
 
 export default Card;
+
+export const CardOpt = React.memo(Card);

@@ -31,3 +31,5 @@ const PopupMenu = ({ navLinks, popUp }) => {
 };
 
 export default PopupMenu;
+
+export const PopupMenuOpt = React.memo(PopupMenu);

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { navLinks } from "../utils/data";
 import logo from "../assets/images/logo.png";
 import menu from "../assets/images/menu.svg";
-import PopupMenu from "./PopupMenu";
+import { PopupMenuOpt } from "./PopupMenu";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -51,7 +51,7 @@ const Navbar = () => {
           </ul>
         </nav>
       </header>
-      <PopupMenu navLinks={navLinks} popUp={popUp} />
+      <PopupMenuOpt navLinks={navLinks} popUp={popUp} />
     </>
   );
 };

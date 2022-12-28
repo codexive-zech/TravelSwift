@@ -1,6 +1,6 @@
 import React from "react";
 import { memory } from "../utils/data";
-import Experience from "./Experience";
+import { ExperienceOpt } from "./Experience";
 const Memory = () => {
   const { title, subtitle, text, img, experiences } = memory;
   return (
@@ -23,7 +23,7 @@ const Memory = () => {
           <p className="lg:text-center py-4 text-slate-900 text-base font-medium ">
             {text}
           </p>
-          <Experience experiences={experiences} />
+          <ExperienceOpt experiences={experiences} />
         </div>
       </div>
     </div>

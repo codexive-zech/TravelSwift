@@ -1,7 +1,6 @@
 import React from "react";
 import { pricingApi } from "../utils/data";
-import Card from "./Card";
-
+import { CardOpt } from "./Card";
 const Pricing = () => {
   const { title, text, btn1, btn2, plans } = pricingApi;
   return (
@@ -30,7 +29,7 @@ const Pricing = () => {
                 key={index}
                 className="grid items-center justify-items-center"
               >
-                <Card {...plan} />
+                <CardOpt {...plan} />
               </div>
             );
           })}

@@ -33,3 +33,5 @@ const Places = ({ placesAPI }) => {
 };
 
 export default Places;
+
+export const PlacesOpt = React.memo(Places);
